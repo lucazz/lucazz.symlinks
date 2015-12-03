@@ -1,7 +1,7 @@
 ---
 # defaults file for lucazz.symlinks
 symlinks:
-    - { src: '/home/vagrant/', dest: '/home/vagrant/symlinks/0' }
-    - { src: '/home/vagrant/', dest: '/home/vagrant/symlinks/1' }
-    - { src: '/home/vagrant/', dest: '/home/vagrant/symlinks/2' }
-    - { src: '/home/vagrant/', dest: '/home/vagrant/symlinks/3' }
+    - { src: '/home/vagrant', dest: '/tmp/0' }
+    - { src: '/home/vagrant', dest: '/tmp/1' }
+    - { src: '/home/vagrant', dest: '/tmp/2' }
+    - { src: '/home/vagrant', dest: '/tmp/3' }
