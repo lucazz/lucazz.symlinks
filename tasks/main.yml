@@ -5,5 +5,4 @@
     src: "{{ item.src }}"
     dest: "{{ item.dest }}"
     state: link
-  with_items:
-    - { src: "{{ symlink.0 }}", dest: "{{ symlink.1 }}" }
+  with_dict: "{{ symlinks }}"
