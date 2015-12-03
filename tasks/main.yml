@@ -6,4 +6,4 @@
     dest: "{{ item.dest }}"
     state: link
   with_item:
-    - { src: {{ symlink.0 }}, dest: '{{ symlink.1 }}' }
+    - { src: "{{ symlink.0 }}", dest: "{{ symlink.1 }}" }
