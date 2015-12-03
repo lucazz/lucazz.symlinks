@@ -1,38 +1,37 @@
-Role Name
+lucazz.symlinks
 =========
 
-A brief description of the role goes here.
-
-Requirements
-------------
-
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+This is a Ansible role that creates symlinks based on a dict privided previously in a var_file
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+By default it'll load the defaults/main.yml file, which contain a dummy set of values for src and dest for this role.
+You should set them at play/playbook level instead.
+Here's an example of a var_file that could be used:
+
+# defaults file for lucazz.symlinks
+symlinks:
+    - { src: '/home/vagrant', dest: '/tmp/0' }
+
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+There are no dependencies besides Ansible core modules for this role.
 
 Example Playbook
 ----------------
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
+    ---
     - hosts: servers
+      sudo: yes
       roles:
-         - { role: username.rolename, x: 42 }
+         - lucazz.symlinks
 
 License
 -------
 
 BSD
-
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).

@@ -2,17 +2,3 @@
 # defaults file for lucazz.symlinks
 symlinks:
     - { src: '/home/vagrant', dest: '/tmp/0' }
-    - { src: '/home/vagrant', dest: '/tmp/1' }
-    - { src: '/home/vagrant', dest: '/tmp/2' }
-    - { src: '/home/vagrant', dest: '/tmp/3' }
-    - { src: '/home/vagrant', dest: '/tmp/4' }
-    - { src: '/home/vagrant', dest: '/tmp/5' }
-    - { src: '/home/vagrant', dest: '/tmp/6' }
-    - { src: '/home/vagrant', dest: '/tmp/7' }
-    - { src: '/home/vagrant', dest: '/tmp/8' }
-    - { src: '/home/vagrant', dest: '/tmp/9' }
-    - { src: '/home/vagrant', dest: '/tmp/10' }
-    - { src: '/home/vagrant', dest: '/tmp/11' }
-    - { src: '/home/vagrant', dest: '/tmp/12' }
-    - { src: '/home/vagrant', dest: '/tmp/13' }
-    - { src: '/home/vagrant', dest: '/tmp/14' }
