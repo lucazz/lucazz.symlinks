@@ -1,0 +1,9 @@
+---
+# tasks file for lucazz.symlinks
+- name: Creating symlinks
+  file:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+    state: link
+  with_item:
+    - { src: {{ symlink.0 }}, dest: '{{ symlink.1 }}' }
