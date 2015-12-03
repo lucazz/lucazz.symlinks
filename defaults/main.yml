@@ -1,15 +1,7 @@
 ---
 # defaults file for lucazz.symlinks
 symlinks:
-  alias0:
-    src: /home/vagrant/
-    dest: /vagramt/0
-  alias1:
-    src: /home/vagrant/
-    dest: /vagramt/1
-  alias2:
-    src: /home/vagrant/
-    dest: /vagramt/2
-  alias3:
-    src: /home/vagrant/
-    dest: /vagramt/3
+    - { src: '/home/vagrant/', dest: '/vagramt/0' }
+    - { src: '/home/vagrant/', dest: '/vagramt/1' }
+    - { src: '/home/vagrant/', dest: '/vagramt/2' }
+    - { src: '/home/vagrant/', dest: '/vagramt/3' }
