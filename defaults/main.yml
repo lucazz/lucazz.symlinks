@@ -3,13 +3,13 @@
 symlinks:
   alias0:
     src: /home/vagrant/
-    dst: /vagramt/0
+    dest: /vagramt/0
   alias1:
     src: /home/vagrant/
-    dst: /vagramt/1
+    dest: /vagramt/1
   alias2:
     src: /home/vagrant/
-    dst: /vagramt/2
+    dest: /vagramt/2
   alias3:
     src: /home/vagrant/
-    dst: /vagramt/3
+    dest: /vagramt/3
